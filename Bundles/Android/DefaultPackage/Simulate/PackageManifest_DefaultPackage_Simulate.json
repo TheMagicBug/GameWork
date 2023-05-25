@@ -24,8 +24,8 @@
             "DependIDs": []
         },
         {
-            "Address": "GameObject",
-            "AssetPath": "Assets/GameRes/GameObject.prefab",
+            "Address": "TestPanel",
+            "AssetPath": "Assets/GameRes/TestPanel.prefab",
             "AssetTags": [
                 "GameRes"
             ],
