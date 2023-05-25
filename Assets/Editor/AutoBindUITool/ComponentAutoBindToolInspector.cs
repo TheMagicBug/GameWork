@@ -547,31 +547,8 @@ public class ComponentAutoBindToolInspector: Editor
             }
             
             //类名
-            sw.WriteLine($"\tpublic partial class {className}: BaseUIView");
+            sw.WriteLine($"\tpublic partial class {className}");
             sw.WriteLine("\t{");
-
-            sw.WriteLine("\t\tpublic override void RegisterUIEvent()");
-            sw.WriteLine("\t\t{");
-            sw.WriteLine($"\t\t\t//获取绑定的组件");
-            sw.WriteLine($"\t\t\tGetBindComponents(gameObject);");
-            sw.WriteLine("");
-            sw.WriteLine($"\t\t\t//添加红点");
-            sw.WriteLine("\t\t\t//RedDotHelper.AddRedDotView(RedDotConst.Main, m_Btn_Main.gameObject, Vector3.one, Vector2.zero);");
-            sw.WriteLine("\t\t}");
-            
-            sw.WriteLine("\t\tpublic override void UnRegisterUIEvent()");
-            sw.WriteLine("\t\t{");
-            sw.WriteLine("");
-            sw.WriteLine($"\t\t\t//移除红点");
-            sw.WriteLine("\t\t\t//RedDotHelper.RemoveRedDotView(RedDotConst.Main);");
-            sw.WriteLine("\t\t}");
-            
-            sw.WriteLine("\t\tpublic override void OnShowWind(params object[] param)");
-            sw.WriteLine("\t\t{");
-            sw.WriteLine("");
-            sw.WriteLine($"\t\t\t//更新红点");
-            sw.WriteLine("\t\t\t//RedDotHelper.BroadcastRedDot(RedDotConst.Main_Role, true);");
-            sw.WriteLine("\t\t}");
             
             sw.WriteLine("\t\tprivate void Start()");
             sw.WriteLine("\t\t{");
