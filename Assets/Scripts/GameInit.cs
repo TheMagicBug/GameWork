@@ -17,7 +17,7 @@ namespace SQDFC
 
             Debug.Log($"资源系统运行模式：{PlayMode}");
 
-            LoadAsset();
+            LoadAsset().Forget();;
             //StartCoroutine(LoadAssets());
         }
         
