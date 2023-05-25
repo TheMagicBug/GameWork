@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "UniTask.csproj", "{063c0629-eb8c-910c-dfb8-4073ad136e95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Linq", "UniTask.Linq.csproj", "{ff3dff39-0aee-35a8-efd0-9ed30687ce97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.DOTween", "UniTask.DOTween.csproj", "{068ded38-0b58-2554-5f2d-c3043c91b9e7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.TextMeshPro", "UniTask.TextMeshPro.csproj", "{bc897748-3a36-ff4d-c660-82f8b1cd746d}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{640aaafb-4299-89ba-4c00-f08e0d2f29b2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Addressables", "UniTask.Addressables.csproj", "{b56c0bb1-d5d3-8681-562a-8da6e0c268fd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Editor", "UniTask.Editor.csproj", "{3b643bce-fe01-a4f0-a8cf-c966e6cc25e6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{5abfa30b-4fed-02e6-b667-fca98804838d}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{063c0629-eb8c-910c-dfb8-4073ad136e95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{063c0629-eb8c-910c-dfb8-4073ad136e95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ff3dff39-0aee-35a8-efd0-9ed30687ce97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ff3dff39-0aee-35a8-efd0-9ed30687ce97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068ded38-0b58-2554-5f2d-c3043c91b9e7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068ded38-0b58-2554-5f2d-c3043c91b9e7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{bc897748-3a36-ff4d-c660-82f8b1cd746d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{bc897748-3a36-ff4d-c660-82f8b1cd746d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{640aaafb-4299-89ba-4c00-f08e0d2f29b2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{640aaafb-4299-89ba-4c00-f08e0d2f29b2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{b56c0bb1-d5d3-8681-562a-8da6e0c268fd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{b56c0bb1-d5d3-8681-562a-8da6e0c268fd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3b643bce-fe01-a4f0-a8cf-c966e6cc25e6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3b643bce-fe01-a4f0-a8cf-c966e6cc25e6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5abfa30b-4fed-02e6-b667-fca98804838d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5abfa30b-4fed-02e6-b667-fca98804838d}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
