@@ -1,4 +1,4 @@
-﻿namespace XCHY
+﻿namespace SQDFC
 {
     public class SingletonBase<T> where T:new()
     {

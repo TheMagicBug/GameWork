@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace XCHY
+namespace SQDFC
 {
     public class EventManager : SingletonBase<EventManager>
     {
