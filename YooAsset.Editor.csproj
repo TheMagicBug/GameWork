@@ -41,95 +41,95 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\YooAsset\Editor\EditorDefine.cs" />
-     <Compile Include="Assets\YooAsset\Editor\UxmlExtension.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IFilterRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IShareAssetPackRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IActiveRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildAssetInfo.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildParameters.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildLogger.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilder.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildParametersContext.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskGetBuildMap.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerAssetListViewer.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerBundleListViewer.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleSimulateBuilder.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildMapContext.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs" />
-     <Compile Include="Assets\YooAsset\Editor\HomePage.cs" />
-     <Compile Include="Assets\YooAsset\Editor\SettingLoader.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollector.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleInspector.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorSetting.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\AssetBundleDebuggerWindow.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleRecorder.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\EBuildMode.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskUpdateBundleInfo.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IAddressRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterSummaryViewer.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreatePackage.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderSettingData.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\DefaultEncryption.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskVerifyBuildResult_SBP.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\EBuildPipeline.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\ECopyBuildinFileOption.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectionHelper.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportAssetInfo.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultPackRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultFilterRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectionManifest.cs" />
-     <Compile Include="Assets\YooAsset\Editor\EditorTools.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorSettingData.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\RuleDisplayName.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskVerifyBuildResult.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleReporterWindow.cs" />
-     <Compile Include="Assets\YooAsset\Editor\UxmlLoader.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCopyRawFile.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\ECollectorType.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskBuilding_SBP.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectCommand.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\SBPBuildTasks.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderHelper.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DisplayNameAttribute.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IPackRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorSettingData.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectResult.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultActiveRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorWindow.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderSetting.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\RemotePlayerSession.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\IContextObject.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\ECompressOption.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectAssetInfo.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\BuildReport.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollector.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterBundleListViewer.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreateManifest.cs" />
+     <Compile Include="Assets\YooAsset\Editor\UxmlDefine.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderWindow.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IShareAssetPackRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilder.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerBundleListViewer.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskBuilding_SBP.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreateReport.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultAddressRule.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportBundleInfo.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskEncryption.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderTools.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IFilterRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskGetBuildMap.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterSummaryViewer.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportAssetInfo.cs" />
+     <Compile Include="Assets\YooAsset\Editor\EditorTools.cs" />
+     <Compile Include="Assets\YooAsset\Editor\UxmlLoader.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultActiveRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\RemotePlayerSession.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportSummary.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCopyBuildinFiles.cs" />
+     <Compile Include="Assets\YooAsset\Editor\SettingLoader.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorSetting.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IAddressRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskVerifyBuildResult_SBP.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorSettingData.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskVerifyBuildResult.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectorWindow.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectAssetInfo.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildReport\ReportBundleInfo.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\IBuildTask.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildBundleInfo.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\TaskAttribute.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildResult.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildMapContext.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollector.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleInspector.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectionHelper.cs" />
+     <Compile Include="Assets\YooAsset\Editor\ShaderVariantCollector\ShaderVariantCollectionManifest.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderHelper.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultAddressRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskEncryption.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCopyBuildinFiles.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorConfig.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultShareAssetPackRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\EditorDefine.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IActiveRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildParameters.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\AssetBundleDebuggerWindow.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleRecorder.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskUpdateBundleInfo.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultPackRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectCommand.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\ECompressOption.cs" />
+     <Compile Include="Assets\YooAsset\Editor\UxmlExtension.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildParametersContext.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerAssetListViewer.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleSimulateBuilder.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorPackage.cs" />
+     <Compile Include="Assets\YooAsset\Editor\HomePage.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreatePackage.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\ECopyBuildinFileOption.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultFilterRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\IPackRule.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DisplayNameAttribute.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildRunner.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\IContextObject.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorSetting.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterBundleListViewer.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorWindow.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\EOutputNameStyle.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildContext.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildBundleInfo.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCreateManifest.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterAssetListViewer.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\TaskAttribute.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorGroup.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildResult.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildAssetInfo.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildSystem\BuildLogger.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\DefaultEncryption.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\EBuildPipeline.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\RuleDisplayName.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskCopyRawFile.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\SBPBuildTasks.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorSettingData.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\CollectResult.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderTools.cs" />
+     <Compile Include="Assets\YooAsset\Editor\AssetBundleReporter\VisualViewers\ReporterAssetListViewer.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskPrepare.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\AssetBundleCollectorConfig.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleCollector\DefaultShareAssetPackRule.cs" />
      <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\BuildTasks\TaskBuilding.cs" />
-     <Compile Include="Assets\YooAsset\Editor\UxmlDefine.cs" />
-     <Compile Include="Assets\YooAsset\Editor\AssetBundleBuilder\AssetBundleBuilderWindow.cs" />
      <None Include="Assets\YooAsset\Editor\AssetBundleReporter\AssetBundleReporterWindow.uxml" />
      <None Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerAssetListViewer.uxml" />
      <None Include="Assets\YooAsset\Editor\AssetBundleDebugger\VisualViewers\DebuggerBundleListViewer.uxml" />
@@ -434,6 +434,33 @@
      </Reference>
      <Reference Include="Newtonsoft.Json">
      <HintPath>D:/GameWork/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenProEditor">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiLib">
+     <HintPath>D:/GameWork/Assets/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenEditor">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DemiEditor">
+     <HintPath>D:/GameWork/Assets/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween46">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween43">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTweenPro">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+     </Reference>
+     <Reference Include="DOTween50">
+     <HintPath>D:/GameWork/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
      </Reference>
      <Reference Include="nunit.framework">
      <HintPath>D:/GameWork/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
