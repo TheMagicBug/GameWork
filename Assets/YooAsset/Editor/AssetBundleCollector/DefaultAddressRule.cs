@@ -40,4 +40,13 @@ namespace YooAsset.Editor
 			return $"{fileInfo.Directory.Name}_{fileName}";
 		}
 	}
+
+	[DisplayName("定位地址: 正则表达式+文件名")]
+	public class AddressByRegularAndFileName : IAddressRule
+	{
+		string IAddressRule.GetAssetAddress(AddressRuleData data)
+		{
+			return data.AssetPath;
+		}
+	}
 }

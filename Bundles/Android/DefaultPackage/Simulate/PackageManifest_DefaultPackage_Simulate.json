@@ -6,7 +6,7 @@
     "PackageVersion": "Simulate",
     "AssetList": [
         {
-            "Address": "Canvas",
+            "Address": "Assets/GameRes/Canvas.prefab",
             "AssetPath": "Assets/GameRes/Canvas.prefab",
             "AssetTags": [
                 "GameRes"
@@ -15,8 +15,8 @@
             "DependIDs": []
         },
         {
-            "Address": "Cube",
-            "AssetPath": "Assets/GameRes/Cube.prefab",
+            "Address": "Assets/GameRes/TestPanel.prefab",
+            "AssetPath": "Assets/GameRes/TestPanel.prefab",
             "AssetTags": [
                 "GameRes"
             ],
@@ -24,18 +24,51 @@
             "DependIDs": []
         },
         {
-            "Address": "TestPanel",
-            "AssetPath": "Assets/GameRes/TestPanel.prefab",
+            "Address": "Assets/GameRes/Test1/AA/Cube.prefab",
+            "AssetPath": "Assets/GameRes/Test1/AA/Cube.prefab",
             "AssetTags": [
                 "GameRes"
             ],
-            "BundleID": 0,
+            "BundleID": 1,
+            "DependIDs": []
+        },
+        {
+            "Address": "Assets/GameRes/Test2/AA/Cube.prefab",
+            "AssetPath": "Assets/GameRes/Test2/AA/Cube.prefab",
+            "AssetTags": [
+                "GameRes"
+            ],
+            "BundleID": 2,
             "DependIDs": []
         }
     ],
     "BundleList": [
         {
             "BundleName": "assets_gameres.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "GameRes"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gameres_test1_aa.bundle",
+            "FileHash": "00000000000000000000000000000000",
+            "FileCRC": "00000000",
+            "FileSize": 0,
+            "IsRawFile": false,
+            "LoadMethod": 0,
+            "Tags": [
+                "GameRes"
+            ],
+            "ReferenceIDs": []
+        },
+        {
+            "BundleName": "assets_gameres_test2_aa.bundle",
             "FileHash": "00000000000000000000000000000000",
             "FileCRC": "00000000",
             "FileSize": 0,

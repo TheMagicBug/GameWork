@@ -28,7 +28,7 @@ MonoBehaviour:
       - CollectPath: Assets/GameRes
         CollectorGUID: 7e56cececff1bbb4a99f142147e554ca
         CollectorType: 0
-        AddressRuleName: AddressByFileName
+        AddressRuleName: AddressByRegularAndFileName
         PackRuleName: PackDirectory
         FilterRuleName: CollectAll
         AssetTags: 
